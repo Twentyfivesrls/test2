@@ -10,7 +10,14 @@
     </parent>
     <groupId>com.twentyfive</groupId>
     <artifactId>test2</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/TwentyFivesrls/test2</url>
+        </repository>
+    </distributionManagement>
     <name>test2</name>
     <description>test2</description>
     <properties>
